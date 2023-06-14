@@ -35,18 +35,3 @@ while w==False:
         y=True
         archivo.write("\nUsuario registrado exitosamente!\n")
         a=int(input('\n1.Iniciar sesion\n2.Registrarse\n'))
-    #b=int(input('\n1.Iniciar sesion\n2.Registrarse\n'))
-    #if b==1:
-     #   ss=input("\nUsuario: ")
-      #  while ss!="bruno":
-        #    print("\nUsuario incorrecto. Vuelva a ingresarlo\n")
-        #ss=input()
-  #      pw=input("Contraseña: ")
-   #     while pw!="1234":
-    #        print("\nContraseña incorrecta. Vuelva a ingresarla\n")
-     #   pw=input()
-      #  print("\nBienvenido ",ss," denuevo...")
-       # archivo.write("\nBienvenido ")
-        #archivo.write(ss)
-        #archivo.write(" denuevo...")
-        #archivo.close()

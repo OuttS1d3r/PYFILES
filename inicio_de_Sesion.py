@@ -16,11 +16,11 @@ while w==False:
             a=int(input('\n1.Iniciar sesion\n2.Registrarse\n'))
     if a==1 and y==True:
         x=input("Usuario: ")
-        z=int(input("Contraseña: "))
+        z=input("Contraseña: ")
         if x!=ss or z!=pw:
             print("Usuario o contraseña incorrectos, intente nuevamente")
             x=input("Usuario: ")
-            z=int(input("Contraseña: "))
+            z=input("Contraseña: ")
         print("\nBienvenido ",ss," denuevo...")
         w=True
         archivo.write("\nBienvenido ")
@@ -30,7 +30,7 @@ while w==False:
     if a==2:
         name=input("Nombre: ")
         ss=input("Usuario: ")
-        pw=int(input("Contraseña: "))
+        pw=input("Contraseña: ")
         print("\nUsuario registrado exitosamente!\n")
         y=True
         archivo.write("\nUsuario registrado exitosamente!\n")
